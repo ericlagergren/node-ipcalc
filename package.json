@@ -1,0 +1,29 @@
+{
+  "name": "ipcalc",
+  "version": "1.0.0",
+  "description": "A node.js port of the popular *nix ipcalc package",
+  "main": "ipcalc.js",
+  "scripts": {
+    "test": "node ipcalc.js 192.168.1.1 24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EricLagerg/node-ipcalc.git"
+  },
+  "keywords": [
+    "ipcalc",
+    "subnetting",
+    "calculator",
+    "ipv4",
+    "subnet"
+  ],
+  "author": {
+    "name": "Eric Lagergren",
+    "email": "ericscottlagergren@gmail.com"
+  },
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/EricLagerg/node-ipcalc/issues"
+  },
+  "homepage": "https://github.com/EricLagerg/node-ipcalc"
+}
