@@ -20,7 +20,7 @@ Copyright 2014 Eric Lagergren
 
 Author = "Eric Lagergren <ericscottlagergren@gmail.com>";
 Bugs = "https://github.com/EricLagerg/node-ipcalc/issues";
-Version = "1.0.0";
+Version = "1.1.0";
 
 "use strict"; // It keeps me from doing stupid things with my code
 
