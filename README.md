@@ -1,5 +1,6 @@
 node-ipcalc
 ===========
+[![Build Status](https://travis-ci.org/EricLagerg/node-ipcalc.svg)](https://travis-ci.org/EricLagerg/node-ipcalc)
 
 <h2>What is is:</h2>
 <p>node-ipcalc (ipcalc) is a node.js implementation of the popular *nix package ipcalc.</p>
