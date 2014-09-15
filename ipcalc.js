@@ -22,7 +22,7 @@ Copyright 2014 Eric Lagergren
 
 var _AUTHOR_ = "Eric Lagergren <ericscottlagergren@gmail.com>";
 var _BUGS_ = "https://github.com/EricLagerg/node-ipcalc/issues";
-var _VERSION_ = "3.0.0";
+var _VERSION_ = "3.0.1";
 
 var two = process.argv[2];
 var three = process.argv[3];
@@ -151,7 +151,7 @@ function qdotToInt(ip) {
 // Reverses the previous function
 function intToQdot(integer) {
 
-    var arr = [0, 16, 8, 24];
+    var arr = [0, 8, 16, 24];
 
     var x = arr.map(function(n) {
         //console.log(integer, n)
