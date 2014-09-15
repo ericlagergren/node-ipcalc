@@ -1,3 +1,8 @@
+#2014-09-14:
+	- Updated variable and function names
+	- Simplified some logic
+	- Removed unnecessary functions
+	- Quicker runtime
 #2014-09-13:
 	- Refactored functions to separate logic
 	- Simpler arg parsing

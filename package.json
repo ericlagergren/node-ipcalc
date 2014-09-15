@@ -1,6 +1,6 @@
 {
   "name": "ipcalc",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A node.js port of the popular *nix ipcalc package",
   "main": "ipcalc.js",
   "scripts": {
