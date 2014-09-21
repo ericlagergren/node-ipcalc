@@ -1,3 +1,8 @@
+#2014-09-20:
+	- Program will now use network IP if IP is omitted
+	- Changed bitwise logic again to reduce overhead and fix u32_int sizes
+	- Changed layout to mirror sipcalc rather than ipcalc (perl)
+	- Refactored if/else logic
 #2014-09-14:
 	- Updated variable and function names
 	- Simplified some logic
