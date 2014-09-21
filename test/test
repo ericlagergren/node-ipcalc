@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+whotest[0]='test' || (echo 'Failure: arrays not supported in this version of
+bash.' && exit 0)
+
+IPADDRS=("10.15.0.1" "172.16.0.1" "192.168.1.1" "240.0.0.0" "255.255.255.255")
+MASKADDRS=("255.0.0.0" "255.255.0.0" "255.255.255.0" "255.255.255.255" "255.255.192.0")
+PREFIXNUMS=(4 17 24 27 32)
+HOSTNUMS=(10 50 250 1500 50000)
+
+for (( i = 0; i < 5; i++ )); do
+	node ./ipcalc.js ${IPADDRS[i]}/${PREFIXNUMS[i]} &&
+	node ./ipcalc.js ${IPADDRS[i]} ${MASKADDRS[i]} &&
+	node ./ipcalc.js -n ${IPADDRS[i]} ${HOSTNUMS[i]} &&
+	node ./ipcalc.js ${PREFIXNUMS[i]} &&
+	node ./ipcalc.js ${MASKADDRS[i]}
+done
