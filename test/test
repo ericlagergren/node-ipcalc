@@ -14,4 +14,9 @@ for (( i = 0; i < 5; i++ )); do
 	node ./ipcalc.js -n ${IPADDRS[i]} ${HOSTNUMS[i]} &&
 	node ./ipcalc.js ${PREFIXNUMS[i]} &&
 	node ./ipcalc.js ${MASKADDRS[i]}
+	node ./ipcalc.min.js ${IPADDRS[i]}/${PREFIXNUMS[i]} &&
+	node ./ipcalc.min.js ${IPADDRS[i]} ${MASKADDRS[i]} &&
+	node ./ipcalc.min.js -n ${IPADDRS[i]} ${HOSTNUMS[i]} &&
+	node ./ipcalc.min.js ${PREFIXNUMS[i]} &&
+	node ./ipcalc.min.js ${MASKADDRS[i]}
 done

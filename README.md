@@ -7,7 +7,7 @@ node-ipcalc
 
 <h2>Usage:</h2>
 ```shell
-usage: node ipcalc [-h] [-s | --subnets] [-n | --host] <IPv4 Address>[[/]prefix] [netmask] [hosts OPT]
+usage: node ipcalc [-h] [-n | --host] <IPv4 Address>[[/]prefix] [netmask] [hosts OPT]
 ```
 
 <h2>Example:</h2>
